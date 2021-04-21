@@ -102,3 +102,15 @@ go-web-app-696994cfc4-pzp97   1/1     Running       0          5s
 ```
 
 Verify the updated configs by again navigating to the `/config` end point of the app
+
+### Clean up
+
+To clean up the installation run the following helm command
+```shell
+helm delete <release-name>
+```
+
+In this case it is
+```shell
+helm delete v1
+```
